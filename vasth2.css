@@ -1,4 +1,4 @@
-body .container {
+.container {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -18,16 +18,52 @@ body .container {
     margin: 10px;
 }
 
-.info {
-    margin-bottom: 10px;
-}
-
 img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+   /* border-radius: 50%; */
     border: 2px solid #000;
     margin: 0 0 0 15px;
 }
+
+.css img {
+    width: 400px;
+    height: 700px;
+    margin: 60px;
+}
+
+.ods {
+    margin: 100px;
+    font-weight: bold;
+}
+
+.ods img {
+    border: solid #fff;
+    float: right;
+    margin-top: 30 0 0 0px;
+}
+
+
+/*
+.tentando {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores 
+    margin: 20px;
+}
+
+.img {
+    flex: 1;
+    margin: 10px;
+}
+
+.tentando {
+    max-width: 100%;
+    height: auto;
+    display: flex; /* coloca as imagens uma ao lado da outra 
+    justify-content: center; /* alinha as imagens no centro da tela 
+}
+*/
 

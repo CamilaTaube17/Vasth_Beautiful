@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="vasth.css">
 </head>
 <body>
+
     <header>
         <div class="caixa">
           <h1><img src="./midia/logo.vasth.png" width="10%" ></h1>
@@ -21,24 +22,25 @@
             </nav>
         </div>
      </header>
-     <br><br><br>
+
+<br><br><br>
 
      <center>
-     <a href="https://www.whatsapp.com"> <img src="./midia/whats.png" width="2%"> 
-     <a href="https://www.facebook.com"> <img src="./midia/face.png" width="2%">  </a>
-     <a href="https://www.instagram.com"> <img src="./midia/insta.png" width="2%"> </a>
+            <a href="https://www.whatsapp.com"> <img src="./midia/whats.png" width="2%"> </a>
+            <a href="https://www.facebook.com"> <img src="./midia/face.png" width="2%">  </a>
+            <a href="https://www.instagram.com"> <img src="./midia/insta.png" width="2%"> </a>
      </center>
 
-     <main>
-      <form>
+    <main>
+        <form action="https://formspree.io/f/xvgprrzb" method="post">
           <label for="nomesobrenome">Nome e sobrenome</label>
-          <input type="text" id="nomesobrenome" class="input-padrao" required>
+          <input name="nomesobrenome" type="text" id="nomesobrenome" class="input-padrao" required>
 
           <label for="email">Email</label>
-          <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+          <input name="email" type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
           <label for="telefone">Telefone</label>
-          <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+          <input name="telefone" type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
 
 
@@ -51,7 +53,7 @@
     </div>
     <p class="rating-value">Avaliação: <span id="rating-value">5!</span></p>
 
-     <script src="script.js">
+    <script src="script.js">
 // scripts.js
 document.addEventListener('DOMContentLoaded', () => {
     const stars = document.querySelectorAll('.star');
@@ -97,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-</script>
+    </script>
 
     <br><br>
 
@@ -129,24 +131,23 @@ document.addEventListener('DOMContentLoaded', () => {
             </label>
 
             <input type="submit" value="Enviar formulário" class="enviar">
+
       </form>
-     </main>
+    </main>
 
-      <center>
-          <img src="./midia/cartao_vasth.jpg" title="teste" width="20%"  HSPACE="30" VSPACE="30"
-             alt="" usemap="#cartao">
-      </center>
+    
+<br><br>
 
-      <map name="cartao">
-        <area shape="default" coords="448,952,1024,1030" href="./cartao.html" alt="" target="_blank">
-      </map>
+    <center>
+        <a href="index.html"> <input type="submit" value="Voltar" class="voltar"> </a>
+    </center>
 
-            <br><br><br>
+<br><br>
 
-            <footer>
-              <img src="./midia/logo.vasth.png" width="5%">
-              <p class="copyright">&copy; Empresa Vasth Beautiful</p>
-          </footer>
+    <footer>
+           <img src="./midia/logo.vasth.png" width="5%">
+           <p class="copyright">&copy; Empresa Vasth Beautiful</p>
+    </footer>
 
 </body>
 </html>
